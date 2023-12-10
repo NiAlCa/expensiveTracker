@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   width: 300px;
+}
+
+
+.input {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+  
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    color: #99A3BA;
+    border: 1px solid #CDD9ED;
+    background: #fff;
+    transition: border .3s ease;
+    &::placeholder {
+        color: #CBD1DC;
+    }
+    &:focus {
+        outline: none;
+        border-color: #678EFE;
+    }
+
+    
+    
+
+    
+
+}
+
+.inputButton{
+    @extend .input;
+
+
+    border: 1px solid rgb(156, 156, 238);
+    color: rgb(156, 156, 238);
+
+    align-self: center;
+
+    
+}

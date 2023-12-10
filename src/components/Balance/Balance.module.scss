@@ -1,0 +1,31 @@
+    
+.container {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+    
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    color: #99A3BA;
+    background: #fff;
+    transition: border .3s ease;
+    &::placeholder {
+        color: #CBD1DC;
+    }
+    &:focus {
+        outline: none;
+        border-color: #678EFE;
+    }
+
+    
+}
